@@ -75,6 +75,8 @@ public class Strings {
     public static final String DISABLE_VIDEO_AUTOPLAY = "Disable video autoplay";
     public static final String CUSTOMISE_STORY_TIMESTAMP = "Customise story timestamp";
     public static final String CUSTOMISE_STORY_TIMESTAMP_DESC = "Customise the timestamp that shows when the story was posted";
+    public static final String STORY_RING_SCALE = "Story ring scale";
+    public static final String STORY_RING_SCALE_DESC = "Shrinks the home-feed story tray rings so more cells fit per row";
     public static final String UNLIMITED_REPLAYS = "Make ephemeral media permament";
     public static final String UNLIMITED_REPLAYS_DESC = "Changes unexpired view once, view twice media to permanent view";
     public static final String IMPROVE_IMAGE_VIEWING = "Improve image viewing";

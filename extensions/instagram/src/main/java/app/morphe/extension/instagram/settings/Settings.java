@@ -36,6 +36,7 @@ public class Settings {
     public static final BooleanSetting VIEW_STORY_MENTIONS = new BooleanSetting("view_story_mentions", true);
     public static final BooleanSetting DISABLE_STORY_FLIPPING = new BooleanSetting("disable_story_flipping", false);
     public static final StringSetting CUSTOMISE_STORY_TIMESTAMP = new StringSetting("customise_story_timestamp", "default");
+    public static final StringSetting STORY_RING_SCALE = new StringSetting("story_ring_scale", "1.0");
     public static final BooleanSetting UNLIMITED_REPLAYS = new BooleanSetting("unlimited_replays", true);
     public static final BooleanSetting HIDE_RESHARE_BUTTON = new BooleanSetting("hide_reshare_button", true);
     public static final BooleanSetting IMPROVE_IMAGE_VIEWING = new BooleanSetting("improve_image_viewing", true);
