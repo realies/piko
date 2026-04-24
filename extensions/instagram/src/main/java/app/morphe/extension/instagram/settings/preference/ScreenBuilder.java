@@ -342,6 +342,16 @@ public class ScreenBuilder {
             );
         }
 
+        if (SettingsStatus.storyRingScale) {
+            addPreference(category,
+                    helper.listPreference(
+                            Strings.STORY_RING_SCALE,
+                            Strings.STORY_RING_SCALE_DESC,
+                            Settings.STORY_RING_SCALE
+                    )
+            );
+        }
+
         if (SettingsStatus.unlimitedReplaysOnEphemeralMedia) {
             addPreference(category,
                     helper.switchPreference(

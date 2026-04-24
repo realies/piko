@@ -59,9 +59,12 @@ public class ListPref extends ListPreference {
 
         CharSequence[] entries = new CharSequence[]{};
         CharSequence[] entriesValues = new CharSequence[]{};
-        if (key == Settings.CUSTOMISE_STORY_TIMESTAMP.key) {
+        if (Settings.CUSTOMISE_STORY_TIMESTAMP.key.equals(key)) {
             entries = Arrays.CUSTOMISE_STORY_TIMESTAMP_KEY;
             entriesValues = Arrays.CUSTOMISE_STORY_TIMESTAMP_VAL;
+        } else if (Settings.STORY_RING_SCALE.key.equals(key)) {
+            entries = Arrays.STORY_RING_SCALE_KEY;
+            entriesValues = Arrays.STORY_RING_SCALE_VAL;
         }
 
         setEntries(entries);

@@ -98,6 +98,9 @@ public class Pref {
     public static String customiseStoryTimestamp(){
         return SharedPref.getStringPref(Settings.CUSTOMISE_STORY_TIMESTAMP);
     }
+    public static String storyRingScale(){
+        return SharedPref.getStringPref(Settings.STORY_RING_SCALE);
+    }
     public static int improveImageViewing(int defaultSize){
             return SharedPref.getBooleanPerf(Settings.IMPROVE_IMAGE_VIEWING) ? 2048:defaultSize;
     }

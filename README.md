@@ -178,6 +178,7 @@ java -jar cli.jar patch --patches piko.mpp input.apkm
 <tr><td><code>Disable screenshot detection</code></td><td>Disables screenshots detection in DM</td></tr>
 <tr><td><code>Disable screenshot detection</code></td><td>Disables screenshots detection in DM</td></tr>
 <tr><td><code>Disable screenshot detection</code></td><td>Disables screenshots detection in DM</td></tr>
+<tr><td><code>Story ring scale</code></td><td>Shrinks the home-feed story tray rings (50% - 100%) so more circles fit per row.</td></tr>
 
 
 </tbody>

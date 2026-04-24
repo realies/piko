@@ -134,6 +134,10 @@ public class SettingsStatus {
     public static void customiseStoryTimestamp() {
         customiseStoryTimestamp = true;
     }
+    public static boolean storyRingScale = false;
+    public static void storyRingScale() {
+        storyRingScale = true;
+    }
     public static boolean unlimitedReplaysOnEphemeralMedia = false;
     public static void unlimitedReplaysOnEphemeralMedia() {
         unlimitedReplaysOnEphemeralMedia = true;
@@ -154,7 +158,7 @@ public class SettingsStatus {
     public static void removeEmptyBottomSpace() {
         removeEmptyBottomSpace = true;
     }
-    public static boolean miscSection() {return (removeEmptyBottomSpace || copyCommentButton || improveImageViewing || unlimitedReplaysOnEphemeralMedia || customiseStoryTimestamp || disableAnalytics || disableDiscoverPeople || followBackIndicator || viewStoryMentions || disableStoryFlipping || hideReshareButton);}
+    public static boolean miscSection() {return (removeEmptyBottomSpace || copyCommentButton || improveImageViewing || unlimitedReplaysOnEphemeralMedia || customiseStoryTimestamp || storyRingScale || disableAnalytics || disableDiscoverPeople || followBackIndicator || viewStoryMentions || disableStoryFlipping || hideReshareButton);}
 
     //Download section.
     public static boolean downloadMedia = false;
